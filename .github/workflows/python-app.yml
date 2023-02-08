@@ -38,7 +38,7 @@ jobs:
       run: |
         pytest
     - name: Build and Push Docker
-    - uses: mr-smithers-excellent/docker-build-push@v5
+      uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: jefaf/docker-cicd
         registry: docker.io
