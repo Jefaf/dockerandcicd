@@ -40,4 +40,4 @@ jobs:
         image: jefaf/docker-cicd
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
